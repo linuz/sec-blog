@@ -1,87 +1,55 @@
-<!--Mockingbird theme by Nevan Scott (http://nevanscott.com/)-->
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-        <title>Kernel Meltdown - Blog &middot; Articles by Dennis</title>
-        <link rel="shortcut icon" href="../favicon.ico" />
-<link href="http://kernelmeltdown.org/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Kernel Meltdown - Blog Atom Feed" />
+<head>
+        <title>Kernel Meltdown - Blog - Articles by Dennis</title>
+        <meta charset="utf-8" />
+</head>
 
-        <link rel="stylesheet" href="../theme/css/screen.css" type="text/css" />
-        <link rel="stylesheet" href="../theme/css/pygments.css" type="text/css" />
-	<link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
-	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />-->
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="http://kernelmeltdown.org/blog/">Kernel Meltdown - Blog <strong></strong></a></h1>
+        </header><!-- /#banner -->
+        <nav id="menu"><ul>
+            <li><a href="http://kernelmeltdown.org/blog/pages/about-me.html">About Me</a></li>
+            <li><a href="http://kernelmeltdown.org/blog/pages/media.html">Media</a></li>
+        </ul></nav><!-- /#menu -->
+<section id="content">
+<h2>Articles by Dennis</h2>
 
-    </head>
-    <body>
-<div id="header">
-            <ul id="nav">
-                <li class="ephemeral selected"><a href="../author/dennis.html">Dennis</a></li>
-                <li><a href="..">Home</a></li>
-<li><a href="../pages/about-me.html">About Me</a></li>
-<li><a href="../pages/media.html">Media</a></li>
-<li><a href="../tags.html">Tags</a></li>
-                <li><a href="../archives.html">Archives</a></li>
-            </ul>
-            <div class="header_box">
-                <h1><a href="..">Kernel Meltdown - Blog</a></h1>
-            </div>
-        </div>
-        <div id="wrapper">
-            <div id="content">
-                <h4 class="date">Sep 05, 2015</h4>
-                <div class="post">
-<h2 class="title">
-                        <a href="../initiate-zone-transfer-using-dig.html" rel="bookmark" title="Permanent Link to &quot;Initiate zone transfer using Dig&quot;">Initiate zone transfer using Dig</a>
-                    </h2>
-
-                    <p><a href="http://linux.die.net/man/1/dig">Dig</a> is a DNS lookup utility. You can use Dig to initiate a <a href="https://en.wikipedia.org/wiki/DNS_zone_transfer">DNS zone transfer</a> from a DNS server that allows it. This is useful to for finding sensitive information such as hostnames.</p>
+<ol id="post-list">
+        <li><article class="hentry">
+                <header> <h2 class="entry-title"><a href="http://kernelmeltdown.org/blog/initiate-zone-transfer-using-dig.html" rel="bookmark" title="Permalink to Initiate zone transfer using Dig">Initiate zone transfer using Dig</a></h2> </header>
+                <footer class="post-info">
+                    <abbr class="published" title="2015-09-05T21:24:00-05:00"> Sat 05 September 2015 </abbr>
+                    <address class="vcard author">By
+                        <a class="url fn" href="http://kernelmeltdown.org/blog/author/dennis.html">Dennis</a>
+                    </address>
+                </footer><!-- /.post-info -->
+                <div class="entry-content"> <p><a href="http://linux.die.net/man/1/dig">Dig</a> is a DNS lookup utility. You can use Dig to initiate a <a href="https://en.wikipedia.org/wiki/DNS_zone_transfer">DNS zone transfer</a> from a DNS server that allows it. This is useful to for finding sensitive information such as hostnames.</p>
 <p><code>dig @&lt;dnsserver&gt; &lt;domain&gt; axfr</code></p>
 <p>For example:</p>
-<p><code>dig @dns.example.org example.org axfr</code> </p>
-
-                    <div class="clear"></div>
-                    <div class="info">
-<a href="../initiate-zone-transfer-using-dig.html">posted at 21:24</a>
-                        <!--&nbsp;&middot;&nbsp;<a href="../category/blog.html" rel="tag">blog</a>-->
-
-                        <div class="tags">
-                            <a href="../tag/commands.html">Commands</a>
-                            <a href="../tag/red-team.html">Red Team</a>
-                        </div>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-
-                <div class="post">
-<h2 class="title">
-                        <a href="../this-blog.html" rel="bookmark" title="Permanent Link to &quot;This Blog&quot;">This Blog</a>
-                    </h2>
-
-                    <p>This purpose of this "blog" is to note down stuff that I learn or feel I'd like to share to others. I will regularly use this blog as a public notepad that I can reference anytime I want to remember something like a new command or a solution to a problem I solved. Feel free to use it as such.</p>
-
-                    <div class="clear"></div>
-                    <div class="info">
-<a href="../this-blog.html">posted at 18:00</a>
-                        <!--&nbsp;&middot;&nbsp;<a href="../category/blog.html" rel="tag">blog</a>-->
-
-                        <div class="tags">
-                            <a href="../tag/blog.html">Blog</a>
-                            <a href="../tag/information.html">Information</a>
-                        </div>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-
-                <div class="clear"></div>
-                <div id="footer">
-                    <p>
-                    <a class="atom" href="http://kernelmeltdown.org/blog/feeds/all.atom.xml">Feed</a>
-                </div>
-            </div>
-            <div class="clear"></div>
-        </div>
-<script src='../assets/js/auto-target.min.js'></script>
-    </body>
+<p><code>dig @dns.example.org example.org axfr</code> </p> </div><!-- /.entry-content -->
+        </article></li>
+        <li><article class="hentry">
+                <header> <h2 class="entry-title"><a href="http://kernelmeltdown.org/blog/this-blog.html" rel="bookmark" title="Permalink to This Blog">This Blog</a></h2> </header>
+                <footer class="post-info">
+                    <abbr class="published" title="2015-09-05T18:00:00-05:00"> Sat 05 September 2015 </abbr>
+                    <address class="vcard author">By
+                        <a class="url fn" href="http://kernelmeltdown.org/blog/author/dennis.html">Dennis</a>
+                    </address>
+                </footer><!-- /.post-info -->
+                <div class="entry-content"> <p>This purpose of this "blog" is to note down stuff that I learn or feel I'd like to share to others. I will regularly use this blog as a public notepad that I can reference anytime I want to remember something like a new command or a solution to ...</p> </div><!-- /.entry-content -->
+        </article></li>
+</ol><!-- /#posts-list -->
+<p class="paginator">
+    Page 1 / 1
+</p>
+</section><!-- /#content -->
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+</body>
 </html>
