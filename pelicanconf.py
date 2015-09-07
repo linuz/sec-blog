@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Dennis'
 SITENAME = u'Kernel Meltdown - Blog'
-SITEURL = 'http://km-web-preprod.cloudapp.net/kernelmeltdown/blog'
+SITEURL = 'http://kernelmeltdown.org/blog'
 
 PATH = 'content'
 
@@ -26,15 +26,14 @@ AUTHOR_FEED_RSS = None
 #         ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+#SOCIAL = (('You can add links in your config file', '#'),
+#          ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-#THEME='/home/dennis/web/sec_blog/themes/pelican-mockingbird'
 THEME='./themes/pelican-mockingbird'
 
 STATIC_PATHS = ['images','assets']
