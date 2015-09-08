@@ -4,7 +4,7 @@
 <html lang="en">
     <head>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-        <title>Kernel Meltdown - Blog &middot; Archives</title>
+        <title>Kernel Meltdown - Blog &middot; NFSpy - Attacking NFS Servers</title>
         <link rel="shortcut icon" href="http://kernelmeltdown.org/blog/favicon.ico" />
 <link href="http://kernelmeltdown.org/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Kernel Meltdown - Blog Atom Feed" />
 
@@ -20,7 +20,7 @@
                 <li><a href="http://kernelmeltdown.org/blog">Home</a></li>
 <li><a href="http://kernelmeltdown.org/blog/pages/about-me.html">About Me</a></li>
 <li><a href="http://kernelmeltdown.org/blog/pages/media.html">Media</a></li>
-<li class="selected"><a href="http://kernelmeltdown.org/blog/tags.html">Tags</a></li>
+<li><a href="http://kernelmeltdown.org/blog/tags.html">Tags</a></li>
                 <li><a href="http://kernelmeltdown.org/blog/archives.html">Archives</a></li>
             </ul>
             <div class="header_box">
@@ -28,19 +28,32 @@
             </div>
         </div>
         <div id="wrapper">
-            <div id="content">                <h1>Tags</h1>
+            <div id="content">
+                <h4 class="date">Sep 06, 2015</h4>
+                <div class="post">
+<h2 class="title">
+                        <a href="http://kernelmeltdown.org/blog/nfspy-attacking-nfs-servers.html" rel="bookmark" title="Permanent Link to &quot;NFSpy - Attacking NFS Servers&quot;">NFSpy - Attacking NFS Servers</a>
+                    </h2>
 
-		<div class="taglist">
-				<a href="http://kernelmeltdown.org/blog/tag/information.html">Information</a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/git.html">Git</a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/red-team.html">Red Team</a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/tool.html">Tool</a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/documentation.html">Documentation</a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/programming.html">Programming</a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/blog.html">Blog</a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/command.html">Command</a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/security.html">Security</a></li>
-		</div>
+                    <p>I recently learned of the tool: <a href="https://github.com/bonsaiviking/NfSpy">NFSpy</a> which can be used for attacking an NFS server.</p>
+<div class="highlight"><pre>nfspysh -o server=&lt;ip/host&gt;:&lt;dir&gt;
+
+nfspysh -o server=192.168.12.41:/home/jimmy
+</pre></div>
+
+                    <div class="clear"></div>
+                    <div class="info">
+<a href="http://kernelmeltdown.org/blog/nfspy-attacking-nfs-servers.html">posted at 22:35</a>
+                        <!--&nbsp;&middot;&nbsp;<a href="http://kernelmeltdown.org/blog/category/blog.html" rel="tag">blog</a>-->
+
+                        <div class="tags">
+                            <a href="http://kernelmeltdown.org/blog/tag/red-team.html">Red Team</a>
+                            <a href="http://kernelmeltdown.org/blog/tag/tool.html">Tool</a>
+                            <a href="http://kernelmeltdown.org/blog/tag/security.html">Security</a>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
 
                 <div class="clear"></div>
                 <div id="footer">
