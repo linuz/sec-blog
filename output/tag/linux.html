@@ -4,7 +4,7 @@
 <html lang="en">
     <head>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-        <title>Kernel Meltdown - Blog &middot; Archives</title>
+        <title>Kernel Meltdown - Blog &middot; articles tagged "Linux"</title>
         <link rel="shortcut icon" href="http://kernelmeltdown.org/blog/favicon.ico" />
 <link href="http://kernelmeltdown.org/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Kernel Meltdown - Blog Atom Feed" />
 
@@ -17,10 +17,11 @@
     <body>
 <div id="header">
             <ul id="nav">
+                <li class="ephemeral selected"><a href="http://kernelmeltdown.org/blog/tag/linux.html">Linux</a></li>
                 <li><a href="http://kernelmeltdown.org/blog">Home</a></li>
 <li><a href="http://kernelmeltdown.org/blog/pages/about-me.html">About Me</a></li>
 <li><a href="http://kernelmeltdown.org/blog/pages/media.html">Media</a></li>
-<li class="selected"><a href="http://kernelmeltdown.org/blog/tags.html">Tags</a></li>
+<li><a href="http://kernelmeltdown.org/blog/tags.html">Tags</a></li>
                 <li><a href="http://kernelmeltdown.org/blog/archives.html">Archives</a></li>
             </ul>
             <div class="header_box">
@@ -28,20 +29,31 @@
             </div>
         </div>
         <div id="wrapper">
-            <div id="content">                <h1>Tags</h1>
+            <div id="content">
+                <h4 class="date">Sep 08, 2015</h4>
+                <div class="post">
+<h2 class="title">
+                        <a href="http://kernelmeltdown.org/blog/check-the-a-file-permission-number-on-linux.html" rel="bookmark" title="Permanent Link to &quot;Check the a file permission number on linux&quot;">Check the a file permission number on linux</a>
+                    </h2>
 
-		<div class="taglist">
-				<a href="http://kernelmeltdown.org/blog/tag/information.html">Information</a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/git.html">Git</a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/red-team.html">Red Team</a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/tool.html">Tool</a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/documentation.html">Documentation</a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/programming.html">Programming</a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/blog.html">Blog</a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/command.html">Command</a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/linux.html">Linux</a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/security.html">Security</a></li>
-		</div>
+                    <p>Here is how to check a specific file/folder permission number on Linux</p>
+<p><code>stat -c %a /home</code></p>
+<p>This will return something like:</p>
+<p><code>755</code></p>
+<p><img src='images/stat-command.png'></p>
+
+                    <div class="clear"></div>
+                    <div class="info">
+<a href="http://kernelmeltdown.org/blog/check-the-a-file-permission-number-on-linux.html">posted at 17:15</a>
+                        <!--&nbsp;&middot;&nbsp;<a href="http://kernelmeltdown.org/blog/category/blog.html" rel="tag">blog</a>-->
+
+                        <div class="tags">
+                            <a href="http://kernelmeltdown.org/blog/tag/linux.html" class="selected">Linux</a>
+                            <a href="http://kernelmeltdown.org/blog/tag/command.html">Command</a>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
 
                 <div class="clear"></div>
                 <div id="footer">

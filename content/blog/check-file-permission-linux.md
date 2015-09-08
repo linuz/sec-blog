@@ -1,6 +1,6 @@
 Title: Check the a file permission number on linux
 Date: 2015-09-08 17:15
-Tag: Linux, Command
+Tags: Linux, Command
 
 Here is how to check a specific file/folder permission number on Linux
 
