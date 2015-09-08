@@ -10,4 +10,4 @@ This will return something like:
 
 `755`
 
-<img src='images/stat-command.png'>
+<img src='http://kernelmeltdown.org/blog/images/stat-command.png'>
