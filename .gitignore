@@ -19,6 +19,6 @@ Thumbs.db
 #################################
 #pelicanconf.py*
 #output/
-Makefile
+#Makefile
 publishconf.py*
 cache/
