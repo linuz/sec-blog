@@ -17,8 +17,8 @@ Thumbs.db
 
 # Sensitive Configuration Files #
 #################################
+#pelicanconf.py*
 Makefile
-pelicanconf.py*
 publishconf.py*
 output/
 cache/
