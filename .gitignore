@@ -15,10 +15,11 @@ ehthumbs.db
 Thumbs.db
 *~
 
-# Sensitive Configuration Files #
-#################################
+# Some pelican files #
+######################
 #output/
 #Makefile
 pelicanconf.pyc
 publishconf.pyc
 cache/
+*.pid
