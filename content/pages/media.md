@@ -14,7 +14,7 @@ Video - [Dennis Maldonado: Are We Really Safe? Bypassing Access Control Systems]
 
 **DEFCON 23**  
 Slides - [Area We Really Safe?: Hacking Access Control Systems](http://www.slideshare.net/DennisMaldonado5/hacking-access-control-systems)  
-Video - [In Progress...]
+Video - [DEF CON 23 - Dennis Maldonado - Are We Really Safe? - Bypassing Access Control Systems](https://www.youtube.com/watch?v=-cZ7eDV2n5Y)
 
 
 
