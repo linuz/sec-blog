@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME }} &middot; Archives{% endblock %}
+{% block content %}
+                <h1>Tags</h1>
+
+		<div class="taglist">
+			{% for tag, articles in tags %}
+				<a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a></li>
+			{% endfor %}
+		</div>
+{% endblock %}
