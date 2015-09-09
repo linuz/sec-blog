@@ -142,7 +142,14 @@ blockquote {
 	-o-border-radius: 5px;
 	border-radius: 5px;
     }
-.taglist a {
+.info .tags a:hover {
+    background: inherit;
+	color: inherit;
+    }
+.info .tags a.selected {
+    border: 1px #999 solid;
+    }
+ .taglist a {
     margin: 1px;
     font-family: sans-serif;
     background: #2274A5;
@@ -155,14 +162,13 @@ blockquote {
 	-o-border-radius: 5px;
 	border-radius: 5px;
     }
-.info .tags a:hover {
+.taglist a:hover {
     background: inherit;
 	color: inherit;
     }
-.info .tags a.selected {
+.taglist a.selected {
     border: 1px #999 solid;
     }
-
 .post .controls {
 	float: left;
 	visibility: hidden;
