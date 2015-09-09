@@ -143,6 +143,7 @@ blockquote {
 	border-radius: 5px;
     }
 .taglist a {
+    margin: 1px;
     font-family: sans-serif;
     background: #2274A5;
     color: #FFF;
