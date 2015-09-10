@@ -341,7 +341,7 @@ form.inline_edit {
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
 	}
-#footer a { color: inherit; }
+#footer a { color: #EC5656; }
 #footer p { margin: 0; }
 
 .right { float: right; }
