@@ -35,7 +35,7 @@
                         <a href="http://kernelmeltdown.org/blog/untracking-and-removing-already-pushed-files-in-git.html" rel="bookmark" title="Permanent Link to &quot;Untracking and removing already pushed files in Git&quot;">Untracking and removing already pushed files in Git</a>
                     </h2>
 
-                    <p>I had the problem of wanting to remove and ignore files that I have already pushed to my git repository that may or may not have contained some sensitive credentials.... Turns out, it's pretty simple:</p>
+                    <p>I had the problem of wanting to remove and ignore files that I have already commit-ed to git. Turns out, it's pretty simple:</p>
 <ol>
 <li>Add the files you want to ignore to your <em>.gitignore</em> file  </li>
 <li>To unstage and remove paths only from the index, not the file system, run:<br />
@@ -46,6 +46,7 @@
 <code>git commit -m "Removed sensitive files"</code></li>
 </ol>
 <p>The files/paths listed in <em>.gitignore</em> should now be gone from the repository but should still exist in your file system.</p>
+<p>Note: This will not remove files already pushed to your git repository. To remove sensitive data already pushed, see <a href="https://help.github.com/articles/remove-sensitive-data/">this article</a></p>
 
                     <div class="clear"></div>
                     <div class="info">
