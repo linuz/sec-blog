@@ -30,6 +30,38 @@
         </div>
         <div id="wrapper">
             <div id="content">
+                <h4 class="date">Sep 13, 2015</h4>
+                <div class="post">
+<h2 class="title">
+                        <a href="http://kernelmeltdown.org/blog/hijacking-an-elevator-phone.html" rel="bookmark" title="Permanent Link to &quot;Hijacking an Elevator Phone&quot;">Hijacking an Elevator Phone</a>
+                    </h2>
+
+                    <p>If you have ever been on an elevator, you have probably seen (or even used) the elevator phone inside the elevator. <a href="http://www.nfpa.org/~/media/Files/forms%20and%20premiums/101%20handbook/NFP101HB09_CHS2.pdf">By law</a> elevators are required to have some form of two-way communication which usually entails a device connected <a href="https://en.wikipedia.org/wiki/Plain_old_telephone_service">POTS (Plain Old Telephone Service)</a> or <a href="https://en.wikipedia.org/wiki/Business_telephone_system#Private_branch_exchange">PBX</a> telephone line. Turns out, these devices are easy to take over and use for malicious purposes.</p>
+<p>Many elevator phones are programmable in order to allow for different use-cases at different locations. A lot of these can be programmed simply by calling the phone number attached to the elevator phone. </p>
+<p><strong>How do we find the telephone number to the elevator phone?</strong></p>
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Elevator_COP_-_Dover_Impulse_Elevator.JPG" width="500px"></p>
+<p>Each phone may have a standard phone line attached to it (RJ-11). Find it and you can "borrow" that connection to find the number to the elevator phone.</p>
+<p><a href="http://www.amazon.com/dp/B00F6POFL4/ref=cm_sw_su_dp"><img src="https://pbs.twimg.com/media/COpcJ5PUwAAsvvp.jpg" width="500px"></a></p>
+<p>You can use a <a href="http://www.amazon.com/dp/B00F6POFL4/ref=cm_sw_su_dp">small corded telephone</a> like the one above to connect to the phone line. Once connected, dial <strong>1-800-444-4444</strong>. This number is a toll-free <a href="https://en.wikipedia.org/wiki/Automatic_number_announcement_circuit">Automatic Number Announcment Circuit</a> that will inform you of the phone number you are calling from. Note this phone number down. Also note down the manufacturer or model number of the elevator phone if you can find it.</p>
+<p>Look up the documentation for the specific model number of the elevator phone and you will find that you will most likely be able to program it simply by calling the number it is attached to. You will also find that it may have a default password to access programming mode, such as <strong>123456</strong> or <strong>35842#</strong>. From there, you can perform actions such as change the message it announces or even change the number it calls when the emergency button is activated. <a href="https://adamselevator.com/Specific_pdfs_HW/Programming%20Instructions/AS-3%20Series.pdf">Documentation example here</a>.</p>
+<p><strong>How can this be used maliciously?</strong></p>
+<ol>
+<li>Most elevator phones will auto answer when called. You can find the phone number to the device, call it, and now <strong>you are listening to private conversations happening in the elevator</strong>. This has the potential for corporate espionage.</li>
+<li>You can cause a Denial-of-Service by changing who the elevator phone calls in case of an emergency.</li>
+<li>You can pull a prank by changing the message it announces to people in the elevator car, or the party the phone is calling.</li>
+<li>Think of some other things you can do with this. Maybe some social engineering attacks.</li>
+</ol>
+<p><em>PS: Sometimes, you can find the elevator phone's phone number written somewhere in the elevator by maintenance personel</em></p>
+
+                    <div class="clear"></div>
+                    <div class="info">
+<a href="http://kernelmeltdown.org/blog/hijacking-an-elevator-phone.html">posted at 22:06</a>
+                        <!--&nbsp;&middot;&nbsp;<a href="http://kernelmeltdown.org/blog/category/blog.html" rel="tag">blog</a>-->
+
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
                 <h4 class="date">Sep 09, 2015</h4>
                 <div class="post">
 <h2 class="title">
