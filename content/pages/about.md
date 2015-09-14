@@ -4,6 +4,7 @@ Date: 2015-09-06 11:43
 **Dennis Maldonado**  
 *Security Researcher*
 
+Email: dennismald [at] gmail.com
 Twitter: [@DennisMald](https://twitter.com/dennismald)  
 Linkedin: [DennisMald](https://www.linkedin.com/in/dennismald)  
 Github: [Linuz](https://github.com/linuz)
