@@ -1,6 +1,6 @@
 Title: Hijacking an Elevator Phone
 Date: 2015-09-13 22:06
-Tag: Red-Team, Secuirty, Hardware, Physical
+Tags: Red-Team, Secuirty, Hardware, Physical
 
 If you have ever been on an elevator, you have probably seen (or even used) the elevator phone inside the elevator. [By law](http://www.nfpa.org/~/media/Files/forms%20and%20premiums/101%20handbook/NFP101HB09_CHS2.pdf) elevators are required to have some form of two-way communication which usually entails a device connected [POTS (Plain Old Telephone Service)](https://en.wikipedia.org/wiki/Plain_old_telephone_service) or [PBX](https://en.wikipedia.org/wiki/Business_telephone_system#Private_branch_exchange) telephone line. Turns out, these devices are easy to take over and use for malicious purposes.
 
