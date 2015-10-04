@@ -10,7 +10,7 @@ First, enable the **headers** apache module
 
 Next, add the following lines to your **.htaccess** file, or create one if it does not exist:
 
-	<FilesMatch "\.(html|htm)">
+	<FilesMatch "\.(html|htm|xml)$">
 		FileETag None
 		Header unset ETag
 		Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
