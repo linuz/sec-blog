@@ -251,6 +251,7 @@ form.inline_edit {
 #nav li {
 	float: left;
 	}
+
 #nav a {
 	display: block;
 	padding: 4.5em 10px 10px 10px;
@@ -266,7 +267,9 @@ form.inline_edit {
 	background-color: #2274A5;
 	color: #BBB;
 	}
-
+#nav a.twitterlogo{
+	padding: 3.5em 10px 10px 10px;
+	}
 #header .header_box {
 	padding-top: 4.5em;
 	}
