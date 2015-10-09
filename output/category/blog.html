@@ -31,6 +31,30 @@
         </div>
         <div id="wrapper">
             <div id="content">
+                <h4 class="date">Oct 09, 2015</h4>
+                <div class="post">
+<h2 class="title">
+                        <a href="http://kernelmeltdown.org/blog/use-a-web-proxy-for-apt-get.html" rel="bookmark" title="Permanent Link to &quot;Use a web proxy for apt-get&quot;">Use a web proxy for apt-get</a>
+                    </h2>
+
+                    <p>To configure using an HTTP proxy for apt-get, add the following line to your <strong>/etc/apt/apt.conf</strong> file (you may need to create the file)</p>
+<p><code>Acquire::http::Proxy "http://PROXY_HOST:PROXY_PORT";</code></p>
+<p>This will configure apt-get to use a web proxy without configuring it for the entire system. Just comment out or remove the line to reverse the change.</p>
+<p>More information here:<br />
+<a href="https://help.ubuntu.com/community/AptGet/Howto#Setting_up_apt-get_to_use_a_http-proxy">https://help.ubuntu.com/community/AptGet/Howto#Setting_up_apt-get_to_use_a_http-proxy</a></p>
+
+                    <div class="clear"></div>
+                    <div class="info">
+<a href="http://kernelmeltdown.org/blog/use-a-web-proxy-for-apt-get.html">posted at 13:43</a>
+                        <!--&nbsp;&middot;&nbsp;<a href="http://kernelmeltdown.org/blog/category/blog.html" rel="tag">blog</a>-->
+
+                        <div class="tags">
+                            <a href="http://kernelmeltdown.org/blog/tag/linux.html">Linux</a>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
                 <h4 class="date">Oct 04, 2015</h4>
                 <div class="post">
 <h2 class="title">
@@ -274,31 +298,6 @@ nfspysh -o server=192.168.12.41:/home/jimmy
                             <a href="http://kernelmeltdown.org/blog/tag/git.html">Git</a>
                             <a href="http://kernelmeltdown.org/blog/tag/documentation.html">Documentation</a>
                             <a href="http://kernelmeltdown.org/blog/tag/programming.html">Programming</a>
-                        </div>
-                    </div>
-                    <div class="clear"></div>
-                </div>
-
-                <h4 class="date">Sep 05, 2015</h4>
-                <div class="post">
-<h2 class="title">
-                        <a href="http://kernelmeltdown.org/blog/initiate-zone-transfer-using-dig.html" rel="bookmark" title="Permanent Link to &quot;Initiate zone transfer using Dig&quot;">Initiate zone transfer using Dig</a>
-                    </h2>
-
-                    <p><a href="http://linux.die.net/man/1/dig">Dig</a> is a DNS lookup utility. You can use Dig to initiate a <a href="https://en.wikipedia.org/wiki/DNS_zone_transfer">DNS zone transfer</a> from a DNS server that allows it. This is useful to for finding sensitive information such as hostnames.</p>
-<p><code>dig @&lt;dnsserver&gt; &lt;domain&gt; axfr</code></p>
-<p>For example:</p>
-<p><code>dig @dns.example.org example.org axfr</code> </p>
-
-                    <div class="clear"></div>
-                    <div class="info">
-<a href="http://kernelmeltdown.org/blog/initiate-zone-transfer-using-dig.html">posted at 21:24</a>
-                        <!--&nbsp;&middot;&nbsp;<a href="http://kernelmeltdown.org/blog/category/blog.html" rel="tag">blog</a>-->
-
-                        <div class="tags">
-                            <a href="http://kernelmeltdown.org/blog/tag/command.html">Command</a>
-                            <a href="http://kernelmeltdown.org/blog/tag/red-team.html">Red Team</a>
-                            <a href="http://kernelmeltdown.org/blog/tag/security.html">Security</a>
                         </div>
                     </div>
                     <div class="clear"></div>

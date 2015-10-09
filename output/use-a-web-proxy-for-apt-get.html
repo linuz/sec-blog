@@ -4,7 +4,7 @@
 <html lang="en">
     <head>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-        <title>Kernel Meltdown - Blog &middot; Archives</title>
+        <title>Kernel Meltdown - Blog &middot; Use a web proxy for apt-get</title>
         <link rel="shortcut icon" href="http://kernelmeltdown.org/blog/favicon.ico" />
 <link href="http://kernelmeltdown.org/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Kernel Meltdown - Blog Atom Feed" />
 
@@ -20,7 +20,7 @@
                 <li><a href="http://kernelmeltdown.org/blog">Home</a></li>
 <li><a href="http://kernelmeltdown.org/blog/pages/about-me.html">About Me</a></li>
 <li><a href="http://kernelmeltdown.org/blog/pages/media.html">Media</a></li>
-<li class="selected"><a href="http://kernelmeltdown.org/blog/tags.html">Tags</a></li>
+<li><a href="http://kernelmeltdown.org/blog/tags.html">Tags</a></li>
                 <li><a href="http://kernelmeltdown.org/blog/archives.html">Archives</a></li>
 				<li><a class="twitterlogo" href="https://twitter.com/DennisMald"><img src="http://kernelmeltdown.org/blog/images/twitterlogo.png" width="50px" /></a><br/></li>
             </ul>
@@ -29,25 +29,30 @@
             </div>
         </div>
         <div id="wrapper">
-            <div id="content">                <h1>Tags</h1>
+            <div id="content">
+                <h4 class="date">Oct 09, 2015</h4>
+                <div class="post">
+<h2 class="title">
+                        <a href="http://kernelmeltdown.org/blog/use-a-web-proxy-for-apt-get.html" rel="bookmark" title="Permanent Link to &quot;Use a web proxy for apt-get&quot;">Use a web proxy for apt-get</a>
+                    </h2>
 
-		<div class="taglist">
-				<a href="http://kernelmeltdown.org/blog/tag/apache.html">Apache<sup>1</sup></a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/blog.html">Blog<sup>1</sup></a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/command.html">Command<sup>3</sup></a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/documentation.html">Documentation<sup>1</sup></a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/education.html">Education<sup>1</sup></a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/git.html">Git<sup>1</sup></a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/hardware.html">Hardware<sup>1</sup></a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/linux.html">Linux<sup>2</sup></a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/media.html">Media<sup>2</sup></a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/physical.html">Physical<sup>1</sup></a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/presentation.html">Presentation<sup>3</sup></a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/programming.html">Programming<sup>2</sup></a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/red-team.html">Red-Team<sup>4</sup></a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/security.html">Security<sup>4</sup></a></li>
-				<a href="http://kernelmeltdown.org/blog/tag/tool.html">Tool<sup>1</sup></a></li>
-		</div>
+                    <p>To configure using an HTTP proxy for apt-get, add the following line to your <strong>/etc/apt/apt.conf</strong> file (you may need to create the file)</p>
+<p><code>Acquire::http::Proxy "http://PROXY_HOST:PROXY_PORT";</code></p>
+<p>This will configure apt-get to use a web proxy without configuring it for the entire system. Just comment out or remove the line to reverse the change.</p>
+<p>More information here:<br />
+<a href="https://help.ubuntu.com/community/AptGet/Howto#Setting_up_apt-get_to_use_a_http-proxy">https://help.ubuntu.com/community/AptGet/Howto#Setting_up_apt-get_to_use_a_http-proxy</a></p>
+
+                    <div class="clear"></div>
+                    <div class="info">
+<a href="http://kernelmeltdown.org/blog/use-a-web-proxy-for-apt-get.html">posted at 13:43</a>
+                        <!--&nbsp;&middot;&nbsp;<a href="http://kernelmeltdown.org/blog/category/blog.html" rel="tag">blog</a>-->
+
+                        <div class="tags">
+                            <a href="http://kernelmeltdown.org/blog/tag/linux.html">Linux</a>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                </div>
 
                 <div class="clear"></div>
                 <div id="footer">
