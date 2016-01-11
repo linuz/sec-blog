@@ -4,6 +4,7 @@ Date: 2015-09-06
 **Houston Locksport**  
 [Learn the art of lock picking at this monthly meetup in Houston](http://www.chron.com/life/article/Learn-the-art-of-lock-picking-at-this-weekly-6097005.php) - *Houston Chronicle*   
 [Are You A Natural MacGyver? Local Group Invites You to Find Out](http://www.houstonmatters.org/segments/segment-e/2015/03/20/the-art-of-lock-picking) - *Houston Matters*  
+[Craig learns how to pick locks](http://cw39.com/2015/12/16/craig-learns-how-to-pick-locks/) - *NewsFix*
 
 **OWASP Houston Metasploit Workshop**  
 Slides - [Introduction to Metasploit: Exploiting Web Applications](http://www.slideshare.net/DennisMaldonado5/metasploit-for-web-workshop)  
