@@ -14,3 +14,5 @@ https://github.com/byt3bl33d3r/CrackMapExec
 http://www.harmj0y.net/blog/
 https://www.nowsecure.com/blog/2015/08/10/world-writable-code-is-bad-mmmmkay/
 https://wiki.debian.org/Subkeys?action=show&redirect=subkeys
+https://github.com/SpiderLabs
+

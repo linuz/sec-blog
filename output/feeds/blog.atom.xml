@@ -9,7 +9,8 @@ https://www.trustwave.com/Resources/SpiderLabs-Blog/Responder-2-0---Owning-Windo
 https://github.com/byt3bl33d3r/CrackMapExec
 http://www.harmj0y.net/blog/
 https://www.nowsecure.com/blog/2015/08/10/world-writable-code-is-bad-mmmmkay/
-https://wiki.debian.org/Subkeys?action=show&amp;amp;redirect=subkeys&lt;/p&gt;</summary><category term="Education"></category><category term="Reading"></category></entry><entry><title>Use a web proxy for apt-get</title><link href="http://kernelmeltdown.org/blog/use-a-web-proxy-for-apt-get.html" rel="alternate"></link><updated>2015-10-09T13:43:00-05:00</updated><author><name>Dennis</name></author><id>tag:kernelmeltdown.org,2015-10-09:blog/use-a-web-proxy-for-apt-get.html</id><summary type="html">&lt;p&gt;To configure using an HTTP proxy for apt-get, add the following line to your &lt;strong&gt;/etc/apt/apt.conf&lt;/strong&gt; file (you may need to create the file)&lt;/p&gt;
+https://wiki.debian.org/Subkeys?action=show&amp;amp;redirect=subkeys
+https://github.com/SpiderLabs&lt;/p&gt;</summary><category term="Education"></category><category term="Reading"></category></entry><entry><title>Use a web proxy for apt-get</title><link href="http://kernelmeltdown.org/blog/use-a-web-proxy-for-apt-get.html" rel="alternate"></link><updated>2015-10-09T13:43:00-05:00</updated><author><name>Dennis</name></author><id>tag:kernelmeltdown.org,2015-10-09:blog/use-a-web-proxy-for-apt-get.html</id><summary type="html">&lt;p&gt;To configure using an HTTP proxy for apt-get, add the following line to your &lt;strong&gt;/etc/apt/apt.conf&lt;/strong&gt; file (you may need to create the file)&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Acquire::http::Proxy "http://PROXY_HOST:PROXY_PORT";&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;This will configure apt-get to use a web proxy without configuring it for the entire system. Just comment out or remove the line to reverse the change.&lt;/p&gt;
 &lt;p&gt;More information here:&lt;br /&gt;
