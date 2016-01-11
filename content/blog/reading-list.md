@@ -9,7 +9,7 @@ https://adsecurity.org/
 https://github.com/angr/angr-doc  
 http://subt0x10.blogspot.com/?m=0  
 http://www.harmj0y.net/blog/penetesting/pass-the-hash-is-dead-long-live-pass-the-hash/  
-https://www.trustwave.com/Resources/SpiderLabs-Blog/Responder-2-0---Owning-Windows-Networks-part-3/
+https://www.trustwave.com/Resources/SpiderLabs-Blog/Responder-2-0---Owning-Windows-Networks-part-3/  
 https://github.com/byt3bl33d3r/CrackMapExec  
 http://www.harmj0y.net/blog/  
 https://www.nowsecure.com/blog/2015/08/10/world-writable-code-is-bad-mmmmkay/  
